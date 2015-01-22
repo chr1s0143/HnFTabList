@@ -1,4 +1,4 @@
-package me.chr1s0143.HnFTabListSC;
+package HnFTabList.me.chr1s0143.HnFTabListSC;
 
 /**
  * Created by chris on 21/01/2015.
@@ -8,10 +8,12 @@ import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
 import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.wrappers.WrappedChatComponent;
+import net.minecraft.server.v1_8_R1.Packet;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.craftbukkit.v1_8_R1.CraftServer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -35,7 +37,7 @@ public class main extends JavaPlugin implements Listener {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             if (player.isOp()) {
-                if (cmd.getName().equalsIgnoreCase("hnftablist") || cmd.getName().equalsIgnoreCase("hnf")) {
+                if (cmd.getName().equalsIgnoreCase("hnftablist")) {
                     if (args.length == 0)
                         player.sendMessage(ChatColor.DARK_GREEN + "try doing " + ChatColor.GOLD + "/hnf reload ");
                     else if (args[0].equalsIgnoreCase("reload")) {

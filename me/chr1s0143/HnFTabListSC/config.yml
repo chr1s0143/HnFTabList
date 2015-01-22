@@ -13,5 +13,5 @@
 # &l - Bold             &o - Itallic
 # &m - Strike           &r - Reset
 
-header: "&aExample &ctext"
-footer: "&bAnother &6&lexample &etext"
+header: "&aHeader Text &2Here"
+footer: "&bFooter Text &4Here"
