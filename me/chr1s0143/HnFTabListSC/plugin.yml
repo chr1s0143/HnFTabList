@@ -1,0 +1,11 @@
+name: HnFTabListSC
+main: me.chr1s0143.HnFTabListSC.main
+version: 1.0
+author: Chris Hall
+description: Allows you to add custom text to the TabList. Messages can be set via the config.
+
+commands:
+  hnftablist:
+    usage: /hnftablist reload
+    description: reload the config file
+    aliases: [hnf]

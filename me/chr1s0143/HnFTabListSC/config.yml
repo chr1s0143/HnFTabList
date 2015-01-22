@@ -1,0 +1,17 @@
+#Formatting Codes
+# &0 = Black            &5 = Purple
+# &1 = Dark_Blue        &6 = Gold
+# &2 = Dark_Green       &7 = Gray
+# &3 = Teal             &8 = Dark_Gray
+# &4 = Dark_Red         &9 = Blue
+
+# &a = Bright_Green     &d = Pink
+# &b = Aqua             &e = Yellow
+# &c = Red              &f = White
+
+# &k - Magic            &n - Underline
+# &l - Bold             &o - Itallic
+# &m - Strike           &r - Reset
+
+header: "&aExample &ctext"
+footer: "&bAnother &6&lexample &etext"
